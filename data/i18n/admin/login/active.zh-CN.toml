@@ -1,0 +1,19 @@
+[ButtonLogin]
+hash = "sha1-2736fab291f04e69b62d490c3c09361f5b82461a"
+other = "提交"
+
+[TextAdmin]
+hash = "sha1-adaf7ea9db4d31baf7168e279c2fd85c5654e31b"
+other = "管理员账户"
+
+[TextLoginTitle]
+hash = "sha1-05f43eb57223360d454a8c24f5648ff84ba86588"
+other = "管理员登录"
+
+[TextPasswd]
+hash = "sha1-5baa61e4c9b93f3f0682250b6cf8331b7ee68fd8"
+other = "密码"
+
+[Title]
+hash = "sha1-eec6f3286e23a397d2ed057d02bc2dc0f851bb7f"
+other = "管理员登录"

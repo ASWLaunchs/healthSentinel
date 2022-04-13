@@ -1,0 +1,23 @@
+[Title]
+other = "Health Sentinel"
+
+[ContentTitle]
+other = "2022 18th Account 3 Code Collection"
+
+[Sno]
+other = "Student number"
+
+[HealthCode]
+other = "Health Code"
+
+[PathCode]
+other = "Path Code"
+
+[CloseCode]
+other = "Close Code"
+
+[Button]
+other = "Submit"
+
+[CheckRes]
+other = "You already submitted three yards today！"

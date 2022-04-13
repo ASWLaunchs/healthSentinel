@@ -1,0 +1,90 @@
+{{define "templates_office/index.html"}}
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{.title}}</title>
+    <link rel="stylesheet" href="/static/css/office/index.css">
+    <link rel="stylesheet" href="/static/pkg/bootstrap-theme-sketchy/css/bootstrap.min.css">
+    <script src="/static/pkg/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="title alert alert-dismissible alert-info">
+            <h2>{{.contentTitle}}</h2>
+        </div>
+        <div class="progress" style="position: sticky;top: 0; z-index: 999;">
+            <div id="progress" class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar"
+                aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 100%;"></div>
+        </div>
+
+
+        <div class="row">
+            <div class="col-sm-4">
+                <form action="/upload" method="post" enctype="multipart/form-data">
+                    <fieldset class="form-group has-success">
+                        <label class="form-label mt-4" for="inputValid">
+                            <img src="/static/assets/images/common/studentID.svg" alt="" srcset="">
+                            {{.sno}}</label>
+                        <input type="text" value="" class="form-control is-invalid" id="inputValid" name="studentID"
+                            onchange="Index.func.sno(event)" onkeyup="Index.func.check(event)"
+                            onclick="Index.func.isSnoExist(event)">
+                        <div class="valid-feedback">Success! You've done it.</div>
+                        <p id="checkRes" class="text-warning">{{.checkRes}}</p>
+                    </fieldset>
+
+                    <fieldset class="form-group">
+                        <label for="formFile" class="form-label mt-4">
+                            <img src="/static/assets/images/common/healthCode.svg" alt="" srcset="">
+                            {{.healthCode}}</label>
+                        <img id="healthCode" src="/static/assets/images/common/nothing.svg" alt="" srcset=""
+                            onclick="Index.func.imgUpload(event)">
+                        <input class="form-control is-invalid" type="file" id="formFile" name="healthCode"
+                            onchange="Index.func.previewFile(event)">
+                        <div class="valid-feedback">Success! You've done it.</div>
+                    </fieldset>
+
+                    <fieldset class="form-group">
+                        <label for="formFile" class="form-label mt-4">
+                            <img src="/static/assets/images/common/pathCode.svg" alt="" srcset="">
+                            {{.pathCode}}</label>
+                        <img id="pathCode" src="/static/assets/images/common/nothing.svg" alt="" srcset=""
+                            onclick="Index.func.imgUpload(event)">
+                        <input class="form-control is-invalid" type="file" id="formFile" name="pathCode"
+                            onchange="Index.func.previewFile(event)">
+                        <div class="valid-feedback">Success! You've done it.</div>
+                    </fieldset>
+
+                    <fieldset class="form-group">
+                        <label for="formFile" class="form-label mt-4">
+                            <img src="/static/assets/images/common/closeCode.svg" alt="" srcset="">
+                            {{.closeCode}}</label>
+                        <img id="closeCode" src="/static/assets/images/common/nothing.svg" alt="" srcset=""
+                            onclick="Index.func.imgUpload(event)">
+
+                        <input class="form-control is-invalid" type="file" id="formFile" name="closeCode"
+                            onchange="Index.func.previewFile(event)">
+                        <div class="valid-feedback">Success! You've done it.</div>
+                    </fieldset>
+                    <br>
+                    <div class="d-grid gap-2">
+                        <button type="submit" class="btn btn-lg btn-primary " type="button"
+                            onclick="Index.func.feedback()">{{.button}}</button>
+                    </div>
+                </form>
+            </div>
+            <div class="col-sm-8"></div>
+        </div>
+        <br>
+    </div>
+
+    <script src="/static/js/office/index.js"></script>
+</body>
+
+</html>
+{{end}}

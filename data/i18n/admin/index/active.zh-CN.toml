@@ -1,0 +1,35 @@
+[ButtonExit]
+hash = "sha1-fcfa4dd8ac8dc73992313e9f140d9a93fe342908"
+other = "注销"
+
+[ButtonExport]
+hash = "sha1-737eebf9b572d87f3116bd58842017eac5eab802"
+other = "导出今日数据"
+
+[HistoryData]
+hash = "sha1-2642a62ad6b9331e809bacdf3f119752da49eaea"
+other = "历史数据"
+
+[Slogan]
+hash = "sha1-b826047d50bcc2470927e6d87eaea7d7d4ead4a1"
+other = "健康守卫24h无休收集观察人员防疫数据，三码一核酸，守护你我他"
+
+[TableSno]
+hash = "sha1-af727b244cb4ac397ddd9d68381735be68c76e2c"
+other = "学号"
+
+[TableStatus]
+hash = "sha1-48a3661d846478fa991a825ebd10b78671444b5b"
+other = "提交状态"
+
+[TableSubmitedTime]
+hash = "sha1-6b95135870beaa096d63dc781a69187de8280557"
+other = "提交时间"
+
+[TableUsername]
+hash = "sha1-6ae999552a0d2dca14d62e2bc8b764d377b1dd6c"
+other = "姓名"
+
+[Title]
+hash = "sha1-8f4780c386d3a9176f196a7dc528be9a7042146e"
+other = "健康守卫事务处"

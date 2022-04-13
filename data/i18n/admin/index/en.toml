@@ -1,0 +1,26 @@
+[Title]
+other = "healthSentinel affairs office"
+
+[Slogan]
+other = "The health guard collects epidemic prevention data from observers 24 hours a day, and guards you, me and him with three yards and one nucleic acid"
+
+[ButtonExport]
+other = "export today data"
+
+[HistoryData]
+other = "history data"
+
+[ButtonExit]
+other = "sgin out"
+
+[TableSno]
+other = "student number"
+
+[TableUsername]
+other = "name"
+
+[TableSubmitedTime]
+other = "submited time"
+
+[TableStatus]
+other = "status"

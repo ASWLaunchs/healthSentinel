@@ -1,0 +1,23 @@
+[Title]
+other = "健康哨兵"
+
+[ContentTitle]
+other = "2022届18计本三码收集"
+
+[Sno]
+other = "学号"
+
+[HealthCode]
+other = "健康码"
+
+[PathCode]
+other = "行程码"
+
+[CloseCode]
+other = "密接码"
+
+[Button]
+other = "提交"
+
+[CheckRes]
+other = "您今天已经提交过三码了！"

@@ -1,0 +1,25 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.title {
+    margin: 40px auto 20px;
+    text-align: center;
+    box-shadow: 1px 1px 10px 1px rgb(206, 206, 206);
+}
+
+#checkRes {
+    display: none;
+}
+
+#healthCode,
+#pathCode,
+#closeCode {
+    width: 60%;
+    height: 80%;
+    margin-left: 10%;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    border-radius: 14px;
+}

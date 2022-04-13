@@ -1,0 +1,5 @@
+ButtonLogin = "login"
+TextAdmin = "admin acount"
+TextLoginTitle = "admin login"
+TextPasswd = "password"
+Title = "管理员登录"

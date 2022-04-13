@@ -1,0 +1,31 @@
+[Button]
+hash = "sha1-2dacf65959849884a011f36f76a04eebea94c5ea"
+other = "提交"
+
+[CheckRes]
+hash = "sha1-493609b4056cf5dc113626a55ef92d261ffdd45f"
+other = "您今天已经提交过三码了！"
+
+[CloseCode]
+hash = "sha1-976e366f7f3c970ae962619135de1b22e52775c0"
+other = "密接码"
+
+[ContentTitle]
+hash = "sha1-0256619016871d67cca4252c260793fe29869591"
+other = "2022届18计本三码收集"
+
+[HealthCode]
+hash = "sha1-956e19952e030e3a05ae00b278c4179b0592aeed"
+other = "健康码"
+
+[PathCode]
+hash = "sha1-e41e4d3b99dba29869b2ab82272a6392060e3dee"
+other = "行程码"
+
+[Sno]
+hash = "sha1-bbb0ce5cde4f0ac6f0c370eb3d5d9c443350e2d9"
+other = "学号"
+
+[Title]
+hash = "sha1-14fc64bee499220ea98a1c8d53187fe1e4488b05"
+other = "健康哨兵"

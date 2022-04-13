@@ -1,0 +1,26 @@
+[Title]
+other = "健康守卫事务处"
+
+[Slogan]
+other = "健康守卫24h无休收集观察人员防疫数据，三码一核酸，守护你我他"
+
+[ButtonExport]
+other = "导出今日数据"
+
+[HistoryData]
+other = "历史数据"
+
+[ButtonExit]
+other = "注销"
+
+[TableSno]
+other = "学号"
+
+[TableUsername]
+other = "姓名"
+
+[TableSubmitedTime]
+other = "提交时间"
+
+[TableStatus]
+other = "提交状态"

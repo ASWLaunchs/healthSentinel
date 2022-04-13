@@ -1,0 +1,14 @@
+[Title]
+other = "管理员登录"
+
+[TextLoginTitle]
+other = "管理员登录"
+
+[TextAdmin]
+other = "管理员账户"
+
+[TextPasswd]
+other = "密码"
+
+[ButtonLogin]
+other = "提交"

@@ -1,0 +1,47 @@
+{{ define "templates_admin/login.html"}}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/static/pkg/bootstrap-theme-sketchy/css/bootstrap.min.css">
+    <script src="/static/pkg/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+
+    <title>{{.title}}</title>
+
+</head>
+
+<body>
+    <div class="container">
+        <h1 class="display-3">Health Sentinel!</h1>
+        <form action="/verify/admin" method="post">
+            <fieldset>
+                <legend>{{.textLoginTitle}}</legend>
+
+                <div class="form-group">
+                    <label for="exampleInputPassword1">{{.textAdmin}}</label>
+                    <input type="text" class="form-control" id="exampleInputPassword1" placeholder="您的用户名"
+                        name="username">
+                    <br>
+                    <label for="exampleInputPassword1">{{.textAccount}}</label>
+                    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="您的密码"
+                        name="passwd">
+                </div>
+                <button type="submit" class="btn btn-primary">{{.buttonLogin}}</button>
+            </fieldset>
+        </form>
+    </div>
+    <script src="/static/pkg/popper.js@1.16.1/popper.min.js"></script>
+    <script src="/static/pkg/bootstrap-4.6.1-dist/js/bootstrap.min.js"></script>
+    <script src="/static/js/admin/login.js"></script>
+    <script>
+        Login.func.init();
+    </script>
+
+</body>
+
+</html>
+
+{{end}}

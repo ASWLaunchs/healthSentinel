@@ -1,0 +1,40 @@
+{{ define "templates_office/feedback.html"}}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/static/pkg/bootstrap-theme-sketchy/css/bootstrap.min.css">
+    <style>
+        #feedback {
+            position: fixed;
+            top: 38%;
+            left: 6%;
+            width: 84%;
+            transition: all 0.3s ease-in-out;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- toast  -->
+    <div id="feedback" class="toast show" role="alert" aria-live="assertive" aria-atomic="true">
+        <div class="toast-header">
+            <strong class="me-auto ">健康哨兵结果反馈</strong>
+            <small>97ms</small>
+        </div>
+        <div class="toast-body">
+            <blockquote class="blockquote text-success">{{.studentID}}同学的信息提交状态：{{.feedbackMsg}}</blockquote>
+            <img src="/static/assets/images/office/greate.png" alt="" srcset=""
+                style="position:absolute;width:40px;bottom:10px;right:25px">
+        </div>
+    </div>
+    <script src="/static/js/office"></script>
+</body>
+
+</html>
+
+{{end}}
