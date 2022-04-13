@@ -47,6 +47,6 @@ i18n files in `data/i18n`.
 
 ---
 
-#Database dependency
+# Database dependency
 
 <a href="https://github.com/ostafen/clover"><img style="width:40%;box-shadow:2px 2px 13px 1px #ccc;border-radius:14px;padding:4px 14px"  src="./static/assets/images/common/cloverDB.png"/></a>
