@@ -2,7 +2,7 @@ package models
 
 import (
 	"bytes"
-	"crypto/des"
+	"crypto/aes"
 	"encoding/hex"
 	"errors"
 )
@@ -23,7 +23,7 @@ func ZeroUnPadding(origData []byte) []byte {
 //encode passwd+timestamp then return auth.
 func Encrypt(text string, key []byte) (string, error) {
 	src := []byte(text)
-	block, err := des.NewCipher(key)
+	block, err := aes.NewCipher(key)
 	if err != nil {
 		return "", err
 	}
@@ -48,7 +48,7 @@ func Decrypt(decrypted string, key []byte) (string, error) {
 	if err != nil {
 		return "", err
 	}
-	block, err := des.NewCipher(key)
+	block, err := aes.NewCipher(key)
 	if err != nil {
 		return "", err
 	}
